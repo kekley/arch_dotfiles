@@ -43,3 +43,5 @@
 # resize-overlay-duration = 4s 200ms
 #
 command = /usr/bin/fish --login --interactive
+custom-shader = /home/jesus/.config/ghostty/shaders/cursor_tail.glsl
+custom-shader-animation = true
