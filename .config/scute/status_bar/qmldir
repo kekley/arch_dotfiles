@@ -1,0 +1,13 @@
+singleton ResourceService 1.0 ResourceService.qml
+singleton BluetoothService 1.0 BluetoothService.qml
+singleton NetworkService 1.0 NetworkService.qml
+singleton TimeService 1.0 TimeService.qml
+singleton IconPaths 1.0 IconPaths.qml
+
+Time 1.0 Time.qml
+Popup 1.0 Popup.qml
+Networks 1.0 Networks.qml
+PillContainer 1.0 PillContainer.qml
+SvgIcon 1.0 SvgIcon.qml
+SystemResources 1.0 SystemResources.qml
+Workspaces 1.0 Workspaces.qml
