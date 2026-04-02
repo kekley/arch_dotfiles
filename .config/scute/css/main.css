@@ -1,0 +1,107 @@
+:root {
+  --darkBgColor: #767522;
+  --bgColor: #9b992d;
+  --inactiveGray: #5a5a55;
+  --textColor: #423100;
+  --accentBlue: #5d9aff;
+  --pillRounding: 0.8rem;
+}
+window {
+  background-color: transparent;
+}
+
+.launcher {
+  margin-top: 5rem;
+  border-radius: var(--pillRounding);
+  background-color: var(--bgColor);
+  padding: 0.6rem;
+}
+
+entry {
+  border-radius: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 0.2rem;
+}
+
+entry:focus-within,
+.entry:focus-within {
+  outline: none;
+  box-shadow: none;
+}
+
+entry text {
+  color: var(--textColor);
+}
+
+label {
+  color: var(--textColor);
+}
+
+.result {
+  border-radius: 0.6rem;
+  border: 0.1rem ridge var(--textColor);
+  background-color: var(--bgColor);
+  filter: brightness(1.1);
+  padding: 0.2rem;
+  margin: 0.3rem;
+}
+
+.selected {
+  background-color: var(--accentBlue);
+}
+
+spinner {
+  min-width: 32px;
+}
+
+.workspaces-grid {
+  background-color: var(--darkBgColor);
+  border-radius: var(--pillRounding);
+}
+
+.workspace-icon {
+  border-radius: 16px;
+}
+.workspace-icon label {
+  font-weight: bold;
+  color: var(--inactiveGray);
+}
+
+.workspace-icon.icon-occupied {
+  background-color: var(--bgColor);
+}
+.workspace-icon.icon-mine label {
+  color: var(--textColor);
+}
+.workspace-icon.icon-mine.icon-active label {
+  color: var(--accentBlue);
+}
+
+.workspace-icon.icon-has-left-neighbor {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.workspace-icon.icon-has-right-neighbor {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.pill {
+  padding-left: 7px;
+  padding-right: 7px;
+  margin-left: 7px;
+  border-radius: var(--pillRounding);
+  background-color: var(--bgColor);
+}
+.pill label {
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--textColor);
+  padding: 0.1rem;
+}
+
+.pill image {
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  color: var(--textColor);
+}
