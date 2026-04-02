@@ -1,3 +1,3 @@
 cd ~/.config/scute/
-./launcher & 
+./scute & 
 
